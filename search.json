@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "dataverse_visualize",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "dataverse_visualize"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "dataverse_visualize",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall dataverse_visualize in Development mode\n# make sure dataverse_visualize package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to dataverse_visualize\n$ nbdev_prepare",
+    "crumbs": [
+      "dataverse_visualize"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "dataverse_visualize",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/nakamura196/dataverse_visualize.git\nor from conda\n$ conda install -c nakamura196 dataverse_visualize\nor from pypi\n$ pip install dataverse_visualize\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "dataverse_visualize"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "dataverse_visualize",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\nfrom dataverse_visualize.core import CoreClient\n\nurl = \"https://borealisdata.ca\"\n\nclient = CoreClient(url)\n\nclient.visualize_data()",
+    "crumbs": [
+      "dataverse_visualize"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nCoreClient\n\n CoreClient (url)\n\nInitialize self. See help(type(self)) for accurate signature.",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
